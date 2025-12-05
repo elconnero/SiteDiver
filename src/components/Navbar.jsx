@@ -23,8 +23,8 @@ export default function Navbar() {
                 </div>
                 {/*Nav Links*/}
                 <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-                    <a href="#features" className="text-white hover:text-yellow-400 text-sm lg:text-base">Features</a>
-                    <a href="#hero" className="text-white hover:text-yellow-400 text-sm lg:text-base">Hero</a>
+                    <a href="#features" className="text-white hover:text-yellow-400 text-sm lg:text-base">Claims</a>
+                    <a href="#hero" className="text-white hover:text-yellow-400 text-sm lg:text-base">Random Loadout Generator</a>
                     <a href="#page_2" className="text-white hover:text-yellow-400 text-sm lg:text-base">Past Loadouts</a>
                     <a href="#page_3" className="text-white hover:text-yellow-400 text-sm lg:text-base">Profile</a>
                 </div>
