@@ -12,4 +12,8 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-})
+  preview: {
+    // allow Railway domain when running `vite preview`
+    allowedHosts: ['sitediver-production.up.railway.app'],
+  },
+});
