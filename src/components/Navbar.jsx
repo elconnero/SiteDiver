@@ -25,8 +25,8 @@ export default function Navbar() {
                 <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
                     <a href="#features" className="text-white hover:text-yellow-400 text-sm lg:text-base">Features</a>
                     <a href="#hero" className="text-white hover:text-yellow-400 text-sm lg:text-base">Hero</a>
-                    <a href="#page_2" className="text-white hover:text-yellow-400 text-sm lg:text-base">Page_2</a>
-                    <a href="#page_3" className="text-white hover:text-yellow-400 text-sm lg:text-base">Page_3</a>
+                    <a href="#page_2" className="text-white hover:text-yellow-400 text-sm lg:text-base">Past Loadouts</a>
+                    <a href="#page_3" className="text-white hover:text-yellow-400 text-sm lg:text-base">Profile</a>
                 </div>
                 <button className="md:hidden p-2 text-white hover:text-yellow-400" onClick={()=> setMobileMenuIsOpen((prev) =>!prev)}>
                     {mobileMenuIsOpen ? (
